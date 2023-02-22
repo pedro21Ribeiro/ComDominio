@@ -1,0 +1,97 @@
+@font-face {
+    font-family: jura;
+    src: url("../src/Jura/Jura-VariableFont_wght.ttf");
+}
+
+body{
+    background-color: #2D2525;
+}
+input{
+    width: 322;
+    height: 38;
+    border: none;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+form > label{
+    font-family: jura;
+    font-size: 30;
+    color: #2D2525;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+}
+#box{
+    background-color: #D9D9D9;
+    height: 253;
+    width: 375;
+    margin: 0 auto;
+}
+#login-btn{
+    margin-right: 4px;
+    width: 110;
+    height: 24;
+    background-color: #43A959;
+    border: none;
+    font-family: jura;
+    font-size: 20;
+    color: #FFFF;
+}
+#CPswd-btn{
+    width: 204;
+    height: 24;
+    background-color: #4483CD;
+    border: none;
+    font-family: jura;
+    font-size: 20;
+    color: #FFFF;
+}
+#CAcount-btn{
+    width: 322;
+    height: 24;
+    background-color: #E23131;
+    border: none;
+    font-family: jura;
+    font-size: 20;
+    color: #FFFF;
+}
+#login-btn:active{
+    background-color: #2D2525;
+}
+#CPswd-btn:active{
+    background-color: #2D2525;
+}
+#CAcount-btn:active{
+    background-color: #2D2525;
+}
+#ou{
+    font-family: jura;
+    font-size: 20;
+    color: #2D2525;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+.title{
+    color: #FFFF;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 64px;
+    font-family: jura;
+    padding: 65px;
+}
+
+
